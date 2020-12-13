@@ -34,14 +34,16 @@ hr{
 /****End of heading styling****/
 
 /*Home*/
+#homeMain div{
+	margin-top: 10%;
+}
 #homeMain h1 {
 	color:#6123ad;
-	margin: 10% 0 5%;
 	font-size: 4em;
 }
 #homeMain p{
 	font-size: 2em;
-	color:#6123ad;
+
 }
 /****End of Home styling****/
 /*Qualifications*/
