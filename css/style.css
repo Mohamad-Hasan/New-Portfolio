@@ -1,0 +1,147 @@
+body{
+	background-color: #000;
+	/*background-image: linear-gradient(0deg,#000,transparent 70%,transparent),url(../images/bg.jpg);*/
+    background-position: 0 0,64% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff; 
+}
+
+/*Heading*/
+nav {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.2em;
+	padding: 5px;
+	font-weight: bold;
+}
+
+hr{
+	background-color: #fff;
+	opacity: 1;
+}
+
+#nav .navbar-nav a.nav-link {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.section-separator{
+	background-color: #fff;
+	width:80%;
+	margin: 10px auto 20px ;
+
+}
+/****End of heading styling****/
+
+/*Home*/
+#homeMain h1 {
+	color:#6123ad;
+	margin: 10% 0 5%;
+	font-size: 4em;
+}
+#homeMain p{
+	font-size: 2em;
+	color:#6123ad;
+}
+/****End of Home styling****/
+/*Qualifications*/
+#certificates .card{
+	background: transparent;
+	margin-bottom: 10px;
+}
+
+#certificates .card-body{
+	padding: 1rem 0;
+}
+
+#certificates p{
+	font-family: 'Dancing Script', cursive;
+}
+#certificates a{
+	color:#fff;
+	background-color: #6123ad;
+	font-family: 'Dancing Script', cursive;
+}
+
+#certificates h5{
+	font-family: 'Abril Fatface', cursive;
+	color: #6123ad;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+/****End of qualifications styling****/
+/*Writings*/
+#main h1 {
+	color:#6123ad;
+	padding: 5px 0 20px;
+	margin-top: 15%;	
+}
+#main .accordion-header{
+	font-weight: 100;
+}
+
+#main .accordion-button{
+	font-size: 1.2rem;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: transparent;
+}
+
+.accordion-button:focus{
+	box-shadow: 0 0 0 0.25rem rgba(97, 35, 173,.5);
+	border-color: transparent;
+}
+
+#main .btn {
+	color: #6123ad;
+	border-color: #6123ad;
+	float: right;
+}
+/****end of writings page styling****/
+
+/*Contact page*/
+#contactInfo{
+	margin-left: 15%;
+}
+#contactInfo h1 {
+	font-size: 3em;
+}
+#contactInfo h1, #contactInfo p {
+	padding-top: 15px ;
+}
+
+#contactInfo p , #contactInfo a , i{
+	font-size: 1.2em;
+}
+
+#contactInfo a {
+	text-decoration: none;
+}
+
+#contactInfo a, i{
+	color: #6123ad;
+	font-weight: bold;
+}
+/****End of Contact page styling****/
+
+/*Media queries*/
+@media (min-width: 768px){
+
+	#contact{
+		margin-left: auto;
+	}
+	#main .row{
+		margin-top: 13%;
+	}
+}
+@media (max-width: 768px) {
+	.navbar-nav {
+		text-align: center;
+	}
+}
+
+
